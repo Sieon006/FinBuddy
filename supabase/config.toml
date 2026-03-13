@@ -1,0 +1,7 @@
+project_id = "felbpnoddujehfxgfecd"
+
+[functions.finance-ai-chat]
+verify_jwt = false
+
+[functions.send-otp]
+verify_jwt = false
