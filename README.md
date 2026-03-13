@@ -1,56 +1,143 @@
-# Welcome to your Lovable project
+## Project Overview
 
-## Project info
+This project is a **Smart AI-Integrated Expense Tracker** designed to help users manage their finances easily. The application allows users to track daily expenses, plan budgets, monitor spending habits, and receive intelligent guidance from an AI assistant.
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+The AI assistant supports **multiple regional languages** and includes **voice interaction**, allowing users to speak with the assistant naturally.
 
-## How can I edit this code?
+The goal of this project is to create a **simple, beginner-friendly financial management tool** that helps users understand their spending and improve savings.
 
-There are several ways of editing your application.
+---
 
-**Use Lovable**
+## Key Features
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+### Expense Tracking
+- Add and manage daily expenses
+- Categorize expenses (food, travel, bills, etc.)
+- View monthly spending summaries
 
-Changes made via Lovable will be committed automatically to this repo.
+### Budget Planning
+- Set a monthly budget
+- Track spending against the budget
+- Get AI suggestions to reduce unnecessary expenses
 
-**Use your preferred IDE**
+### AI Finance Assistant
+- Helps users plan budgets
+- Analyzes spending habits
+- Gives simple financial advice based on user data
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+### Multilingual Support
+The application supports multiple Indian languages:
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+- English
+- Tamil
+- Hindi
+- Telugu
+- Malayalam
+- Mix (Tamil + English conversational style)
 
-Follow these steps:
+The AI assistant automatically replies in the **selected interface language**.
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
+### Voice Assistant
+Users can interact with the AI assistant using **voice commands**.
+
+Features:
+- Voice input (speak to the assistant)
+- Voice output (assistant responds with speech)
+- Natural conversation similar to smart assistants like Gemini.
+
+### Responsive Design
+The application works on:
+
+- Mobile phones
+- Tablets
+- Laptops / Desktop browsers
+
+---
+
+## Project URL
+
+```
+https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+```
+
+---
+
+## How to Edit This Project
+
+### Use Lovable
+
+Visit the Lovable project and start prompting:
+
+```
+https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+```
+
+Changes made through Lovable will automatically be committed to this repository.
+
+---
+
+### Use Your Preferred IDE
+
+If you want to work locally using your own IDE, clone the repository and push your changes.
+
+#### Requirements
+- Node.js
+- npm
+
+Install Node using nvm:
+https://github.com/nvm-sh/nvm#installing-and-updating
+
+#### Steps
+
+Clone the repository:
+
+```bash
 git clone <YOUR_GIT_URL>
+```
 
-# Step 2: Navigate to the project directory.
+Navigate to the project folder:
+
+```bash
 cd <YOUR_PROJECT_NAME>
+```
 
-# Step 3: Install the necessary dependencies.
-npm i
+Install dependencies:
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+```bash
+npm install
+```
+
+Run the development server:
+
+```bash
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+This starts a development server with auto-reload and preview.
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+---
 
-**Use GitHub Codespaces**
+## Edit Files Directly in GitHub
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+1. Open your repository
+2. Navigate to the file you want to edit
+3. Click the **Edit (pencil icon)**
+4. Make your changes
+5. Commit the update
 
-## What technologies are used for this project?
+---
+
+## Use GitHub Codespaces
+
+1. Open your repository
+2. Click the **Code** button
+3. Select the **Codespaces** tab
+4. Click **New Codespace**
+5. Edit files and push changes when finished
+
+---
+
+## Technologies Used
 
 This project is built with:
 
@@ -60,14 +147,40 @@ This project is built with:
 - shadcn-ui
 - Tailwind CSS
 
-## How can I deploy this project?
+---
 
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
+## Deployment
 
-## Can I connect a custom domain to my Lovable project?
+To deploy the project:
 
-Yes, you can!
+1. Open the project in Lovable
+2. Click **Share**
+3. Click **Publish**
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+Lovable will generate a public link for your app.
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+---
+
+## Custom Domain
+
+You can connect a custom domain.
+
+Steps:
+
+1. Go to **Project Settings**
+2. Open **Domains**
+3. Click **Connect Domain**
+
+Documentation:
+https://docs.lovable.dev/features/custom-domain#custom-domain
+
+---
+
+## Project Goal
+
+The objective of this project is to create a **smart financial assistant** that helps users:
+
+- Track expenses
+- Plan budgets
+- Improve savings habits
+- Interact with AI using their preferred language and voice.
